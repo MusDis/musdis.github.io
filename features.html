@@ -8,17 +8,10 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 20px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: url('image/Home.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
-    }
-
-    .overlay {
-      background: rgba(0, 0, 0, 0.55);
-      min-height: 100vh;
-      padding: 40px 20px;
+      background: white;
+      color: black;
     }
 
     .container {
@@ -26,25 +19,37 @@
       margin: auto;
     }
 
+    /* Back button identical to privacy.html */
+    .back-button {
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: normal;
+    }
+
+    .back-button:hover {
+      text-decoration: underline;
+    }
+
     h1 {
-      font-size: 48px;
+      font-size: 42px;
       font-weight: 900;
       font-family: "Times New Roman", serif;
       font-style: italic;
       text-align: center;
-      margin-bottom: 40px;
-      text-shadow: 0 4px 6px rgba(0,0,0,0.4);
+      margin-bottom: 30px;
     }
 
     h2 {
       margin-top: 40px;
-      font-size: 32px;
+      font-size: 28px;
       font-weight: bold;
-      text-shadow: 0 3px 5px rgba(0,0,0,0.4);
     }
 
     p, ul {
-      font-size: 20px;
+      font-size: 19px;
       line-height: 1.6;
     }
 
@@ -54,33 +59,15 @@
       display: block;
       margin: 20px auto;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    }
-
-    .button {
-      display: inline-block;
-      background: rgba(0,0,0,0.35);
-      padding: 12px 22px;
-      border-radius: 10px;
-      color: white;
-      font-size: 22px;
-      font-weight: bold;
-      text-decoration: none;
-      margin-bottom: 30px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.4);
-    }
-
-    .button:hover {
-      background: rgba(0,0,0,0.55);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
   </style>
 </head>
 
 <body>
-<div class="overlay">
 <div class="container">
 
-  <a class="button" href="index.html">⬅ Back to Home</a>
+  <a class="back-button" href="index.html">← Back</a>
 
   <h1>MusDis Features Overview</h1>
 
